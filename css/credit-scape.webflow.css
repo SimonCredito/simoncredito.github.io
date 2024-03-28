@@ -1396,7 +1396,7 @@ a {
 .grid-5 {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  grid-template-columns: .5fr .5fr .25fr .5fr;
+  grid-template-columns: .5fr .5fr .25fr .5fr 1fr 1fr;
   max-width: 1200px;
   margin: 80px auto 64px;
 }
@@ -2402,7 +2402,7 @@ a {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
-#w-node-e25a6aa1-34e2-89d8-2c2e-b739bdbbfed8-0be94cba, #w-node-b70bc7bc-d9b7-a16c-2330-5446aa61c58d-0be94cba {
+#w-node-e25a6aa1-34e2-89d8-2c2e-b739bdbbfed8-0be94cba {
   grid-area: 1 / 1 / 2 / 2;
 }
 
