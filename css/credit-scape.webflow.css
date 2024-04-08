@@ -1681,6 +1681,17 @@ a {
   margin: 80px auto 64px;
 }
 
+.image-13 {
+  width: 130px;
+  height: 130px;
+  margin-top: -48px;
+  margin-left: 32px;
+}
+
+.uberuns-flexbox-h {
+  display: flex;
+}
+
 @media screen and (max-width: 991px) {
   h1 {
     font-size: 40px;
