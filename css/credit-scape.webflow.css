@@ -95,7 +95,7 @@ a {
 
 .section {
   background-color: var(--hero);
-  background-image: linear-gradient(88deg, rgba(0, 0, 0, .74) 16%, rgba(0, 0, 0, 0)), url('../images/Startbild.jpg');
+  background-image: linear-gradient(88deg, #000000bd 16%, #0000), url('../images/Startbild.jpg');
   background-position: 0 0, 50% 60%;
   background-size: auto, cover;
   height: 100vh;
@@ -103,35 +103,37 @@ a {
 }
 
 .section.home {
-  background-image: linear-gradient(88deg, rgba(0, 0, 0, .74) 16%, rgba(0, 0, 0, 0)), url('../images/r-architecture-GGupkreKwxA-unsplash.jpg');
+  background-image: linear-gradient(88deg, #000000bd 16%, #0000), url('../images/r-architecture-GGupkreKwxA-unsplash.jpg');
   background-position: 0 0, 50%;
 }
 
 .section.partner {
-  background-image: linear-gradient(88deg, rgba(0, 0, 0, .74) 16%, rgba(0, 0, 0, 0)), url('../images/geschaeftspartnern.jpg');
+  background-image: linear-gradient(88deg, #000000bd 16%, #0000), url('../images/geschaeftspartnern.jpg');
   background-position: 0 0, 50% 0;
 }
 
 .section.stellenangebote {
-  background-image: linear-gradient(88deg, rgba(0, 0, 0, .74) 16%, rgba(0, 0, 0, 0)), url('../images/handwackeln-von-geschaeftsleuten-mit-niedrigem-winkel.jpg');
+  background-image: linear-gradient(88deg, #000000bd 16%, #0000), url('../images/handwackeln-von-geschaeftsleuten-mit-niedrigem-winkel.jpg');
   background-position: 0 0, 50% 0;
 }
 
 .section.aboutus {
-  background-image: linear-gradient(88deg, rgba(0, 0, 0, .74) 16%, rgba(0, 0, 0, 0)), url('../images/team-von-geschaeftsleuten-die-haende-stapeln.jpg');
+  background-image: linear-gradient(88deg, #000000bd 16%, #0000), url('../images/team-von-geschaeftsleuten-die-haende-stapeln.jpg');
+  background-position: 0 0, 0%;
+}
+
+.section.immobilienangebote {
+  background-image: linear-gradient(88deg, #000000bd 16%, #0000), url('../images/2148252136.jpg');
   background-position: 0 0, 0%;
 }
 
 .navbar {
   background-color: var(--background);
   color: #fff;
-  border-bottom: 1px solid rgba(202, 169, 122, .35);
+  border-bottom: 1px solid #caa97a59;
   height: 64px;
   position: fixed;
-  top: 66px;
-  bottom: auto;
-  left: 0%;
-  right: 0%;
+  inset: 66px 0% auto;
 }
 
 .logo-and-phone-info {
@@ -140,10 +142,7 @@ a {
   height: 66px;
   padding-top: 16px;
   position: fixed;
-  top: 0%;
-  bottom: auto;
-  left: 0%;
-  right: 0%;
+  inset: 0% 0% auto;
 }
 
 .hero-content {
@@ -158,10 +157,7 @@ a {
   width: 240px;
   margin-top: 16px;
   position: absolute;
-  top: 0%;
-  bottom: auto;
-  left: 0%;
-  right: auto;
+  inset: 0% auto auto 0%;
 }
 
 .container {
@@ -609,7 +605,7 @@ a {
 }
 
 .div-block-25 {
-  background-image: linear-gradient(37deg, rgba(225, 165, 38, .41), rgba(225, 165, 38, .16) 52%, rgba(0, 0, 0, .83) 102%), url('../images/city-skyline-by-river-against-cloudy-sky-2.jpg');
+  background-image: linear-gradient(37deg, #e1a52669, #e1a52629 52%, #000000d4 102%), url('../images/city-skyline-by-river-against-cloudy-sky-2.jpg');
   background-position: 0 0, 50%;
   background-size: auto, cover;
   flex-direction: column;
@@ -759,6 +755,10 @@ a {
   padding-bottom: 128px;
 }
 
+.section-white.hidden {
+  display: none;
+}
+
 .gold {
   color: var(--hero);
 }
@@ -790,10 +790,7 @@ a {
   background-position: 50%;
   background-size: cover;
   position: fixed;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: 0%;
 }
 
 .section-dark {
@@ -888,7 +885,7 @@ a {
 }
 
 .testimonial-slider {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #0000;
   max-width: 800px;
   height: auto;
   margin: 80px auto 128px;
@@ -905,7 +902,7 @@ a {
   border-radius: 2px;
   flex-direction: column;
   align-items: flex-start;
-  height: 250px;
+  height: 410px;
   padding: 24px;
   display: flex;
   position: relative;
@@ -953,10 +950,7 @@ a {
   margin-right: -20px;
   display: none;
   position: absolute;
-  top: auto;
-  bottom: 0%;
-  left: auto;
-  right: 0%;
+  inset: auto 0% 0% auto;
 }
 
 .testimonial-slider-left {
@@ -1038,7 +1032,7 @@ a {
 
 .service-hero {
   background-color: var(--hero);
-  background-image: linear-gradient(88deg, rgba(0, 0, 0, .74) 16%, rgba(0, 0, 0, 0)), url('../images/StockSnap_PGGPLA5RKS-small.jpg');
+  background-image: linear-gradient(88deg, #000000bd 16%, #0000), url('../images/StockSnap_PGGPLA5RKS-small.jpg');
   background-position: 0 0, 50% 0;
   background-size: auto, cover;
   height: 100vh;
@@ -1046,50 +1040,50 @@ a {
 }
 
 .service-hero.baufinanzierung {
-  background-image: linear-gradient(88deg, rgba(0, 0, 0, .74) 16%, rgba(0, 0, 0, 0)), url('../images/glueckliche-familie-haendchen-haltend-im-hof-spazieren.jpg');
+  background-image: linear-gradient(88deg, #000000bd 16%, #0000), url('../images/glueckliche-familie-haendchen-haltend-im-hof-spazieren.jpg');
   background-position: 0 0, 50% 0;
 }
 
 .service-hero.bausparen {
-  background-image: linear-gradient(88deg, rgba(0, 0, 0, .74) 16%, rgba(0, 0, 0, 0)), url('../images/candice-picard-vLENm-coX5Y-unsplash.jpg');
+  background-image: linear-gradient(88deg, #000000bd 16%, #0000), url('../images/candice-picard-vLENm-coX5Y-unsplash.jpg');
 }
 
 .service-hero.bauzinsen {
-  background-image: linear-gradient(88deg, rgba(0, 0, 0, .74) 16%, rgba(0, 0, 0, 0)), url('../images/eine-weibliche-hand-die-einen-rechner-vor-einem-villahausmodell-betreibt.jpg');
+  background-image: linear-gradient(88deg, #000000bd 16%, #0000), url('../images/eine-weibliche-hand-die-einen-rechner-vor-einem-villahausmodell-betreibt.jpg');
   background-position: 0 0, 0%;
 }
 
 .service-hero.modernisierung {
-  background-image: linear-gradient(88deg, rgba(0, 0, 0, .74) 16%, rgba(0, 0, 0, 0)), url('../images/henry-co-3coKbdfnAFg-unsplash.jpg');
+  background-image: linear-gradient(88deg, #000000bd 16%, #0000), url('../images/henry-co-3coKbdfnAFg-unsplash.jpg');
 }
 
 .service-hero.kfwdarlehen {
-  background-image: linear-gradient(88deg, rgba(0, 0, 0, .74) 16%, rgba(0, 0, 0, 0)), url('../images/jonathan-borba-2syANyWHdDs-unsplash.jpg');
+  background-image: linear-gradient(88deg, #000000bd 16%, #0000), url('../images/jonathan-borba-2syANyWHdDs-unsplash.jpg');
   background-position: 0 0, 50% 60%;
 }
 
 .service-hero.autokredit {
-  background-image: linear-gradient(88deg, rgba(0, 0, 0, .74) 16%, rgba(0, 0, 0, 0)), url('../images/junge-frau-die-ein-auto-von-einem-autosalon-prueft.jpg');
+  background-image: linear-gradient(88deg, #000000bd 16%, #0000), url('../images/junge-frau-die-ein-auto-von-einem-autosalon-prueft.jpg');
   background-position: 0 0, 50%;
 }
 
 .service-hero.kreditumschulden {
-  background-image: linear-gradient(88deg, rgba(0, 0, 0, .74) 16%, rgba(0, 0, 0, 0)), url('../images/froehliche-junge-paar-am-laptop.jpg');
+  background-image: linear-gradient(88deg, #000000bd 16%, #0000), url('../images/froehliche-junge-paar-am-laptop.jpg');
   background-position: 0 0, 50% 0;
 }
 
 .service-hero.modernisieren {
-  background-image: linear-gradient(88deg, rgba(0, 0, 0, .74) 16%, rgba(0, 0, 0, 0)), url('../images/beginnen-sie-unser-gemeinsames-leben-in-einem-neuen-zuhause.jpg');
+  background-image: linear-gradient(88deg, #000000bd 16%, #0000), url('../images/beginnen-sie-unser-gemeinsames-leben-in-einem-neuen-zuhause.jpg');
   background-position: 0 0, 50% 0;
 }
 
 .service-hero.anschlussfinanzierung {
-  background-image: linear-gradient(88deg, rgba(0, 0, 0, .74) 16%, rgba(0, 0, 0, 0)), url('../images/mutter-und-tochter-mit-fernglas.jpg');
+  background-image: linear-gradient(88deg, #000000bd 16%, #0000), url('../images/mutter-und-tochter-mit-fernglas.jpg');
   background-position: 0 0, 0%;
 }
 
 .service-hero.ratenkredit {
-  background-image: linear-gradient(88deg, rgba(0, 0, 0, .74) 16%, rgba(0, 0, 0, 0)), url('../images/vertrag-unterzeichnet-waehrend-er-mit-seiner-frau-bei-einem-treffen-mit-einem-finanzberater-ist.jpg');
+  background-image: linear-gradient(88deg, #000000bd 16%, #0000), url('../images/vertrag-unterzeichnet-waehrend-er-mit-seiner-frau-bei-einem-treffen-mit-einem-finanzberater-ist.jpg');
   background-position: 0 0, 50% 0;
 }
 
@@ -1111,10 +1105,7 @@ a {
   font-size: 40px;
   line-height: 40px;
   position: absolute;
-  top: 0%;
-  bottom: auto;
-  left: 0%;
-  right: auto;
+  inset: 0% auto auto 0%;
 }
 
 .grid-facts {
@@ -1250,7 +1241,6 @@ a {
   align-items: flex-start;
   height: 60vh;
   display: flex;
-  position: -webkit-sticky;
   position: sticky;
   top: 160px;
 }
@@ -1298,10 +1288,7 @@ a {
   height: 100%;
   margin-top: -90px;
   position: absolute;
-  top: 0%;
-  bottom: auto;
-  left: 0%;
-  right: auto;
+  inset: 0% auto auto 0%;
 }
 
 .div-block-43 {
@@ -1387,10 +1374,7 @@ a {
   color: var(--white);
   display: none;
   position: fixed;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: 0%;
 }
 
 .grid-5 {
@@ -1419,10 +1403,7 @@ a {
   padding-top: 32px;
   padding-right: 32px;
   position: absolute;
-  top: 0%;
-  bottom: auto;
-  left: 0%;
-  right: 0%;
+  inset: 0% 0% auto;
 }
 
 .text-block-8 {
@@ -1483,10 +1464,7 @@ a {
   line-height: 30px;
   display: none;
   position: absolute;
-  top: 0%;
-  bottom: auto;
-  left: 0%;
-  right: auto;
+  inset: 0% auto auto 0%;
 }
 
 .grid-6 {
@@ -1603,22 +1581,22 @@ a {
 }
 
 .section-no-hero.home {
-  background-image: linear-gradient(88deg, rgba(0, 0, 0, .74) 16%, rgba(0, 0, 0, 0)), url('../images/r-architecture-GGupkreKwxA-unsplash.jpg');
+  background-image: linear-gradient(88deg, #000000bd 16%, #0000), url('../images/r-architecture-GGupkreKwxA-unsplash.jpg');
   background-position: 0 0, 50%;
 }
 
 .section-no-hero.partner {
-  background-image: linear-gradient(88deg, rgba(0, 0, 0, .74) 16%, rgba(0, 0, 0, 0)), url('../images/geschaeftspartnern.jpg');
+  background-image: linear-gradient(88deg, #000000bd 16%, #0000), url('../images/geschaeftspartnern.jpg');
   background-position: 0 0, 50% 0;
 }
 
 .section-no-hero.stellenangebote {
-  background-image: linear-gradient(88deg, rgba(0, 0, 0, .74) 16%, rgba(0, 0, 0, 0)), url('../images/handwackeln-von-geschaeftsleuten-mit-niedrigem-winkel.jpg');
+  background-image: linear-gradient(88deg, #000000bd 16%, #0000), url('../images/handwackeln-von-geschaeftsleuten-mit-niedrigem-winkel.jpg');
   background-position: 0 0, 50% 0;
 }
 
 .section-no-hero.aboutus {
-  background-image: linear-gradient(88deg, rgba(0, 0, 0, .74) 16%, rgba(0, 0, 0, 0)), url('../images/team-von-geschaeftsleuten-die-haende-stapeln.jpg');
+  background-image: linear-gradient(88deg, #000000bd 16%, #0000), url('../images/team-von-geschaeftsleuten-die-haende-stapeln.jpg');
   background-position: 0 0, 0%;
 }
 
@@ -1706,6 +1684,10 @@ a {
     font-size: 16px;
   }
 
+  .section.immobilienangebote {
+    background-position: 0 0, 50%;
+  }
+
   .hero-container, .footer-container {
     max-width: 100%;
     padding-left: 16px;
@@ -1757,7 +1739,7 @@ a {
   }
 
   .testimonial-card {
-    height: 270px;
+    height: 480px;
   }
 
   .testimonial-author {
@@ -1925,6 +1907,7 @@ a {
   }
 
   .testimonial-card {
+    height: 410px;
     margin-left: 10px;
     margin-right: 10px;
   }
@@ -1939,6 +1922,18 @@ a {
 
   .box-with-gold-border {
     padding: 32px 12px 12px;
+  }
+
+  .footer-content {
+    flex-flow: column;
+  }
+
+  .footer-social-links-box {
+    margin-bottom: 44px;
+  }
+
+  .footer-right {
+    order: -1;
   }
 
   .testimonial-stack {
@@ -2119,6 +2114,7 @@ a {
   }
 
   .testimonial-card {
+    height: 480px;
     margin-left: 10px;
     margin-right: 10px;
   }
@@ -2309,8 +2305,7 @@ a {
 }
 
 #w-node-c17886cd-ebb0-1a3d-07dd-ddea5d4c7740-ca902d86 {
-  align-self: auto;
-  justify-self: auto;
+  place-self: auto;
 }
 
 #w-node-_0044b358-d8cf-2176-ed74-f997e166b527-e166b4fe {
