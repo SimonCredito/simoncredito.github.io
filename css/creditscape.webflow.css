@@ -2070,9 +2070,9 @@ a {
 }
 
 .image-17 {
-  width: 110px;
-  margin-top: -110px;
+  width: 90px;
   margin-bottom: 32px;
+  margin-right: 12px;
 }
 
 .phonenumber {
@@ -2149,6 +2149,17 @@ a {
   flex-direction: column;
   align-items: stretch;
   display: flex;
+}
+
+.div-block-75 {
+  align-items: flex-start;
+  width: 100%;
+  margin-top: -110px;
+  display: flex;
+}
+
+.div-block-76 {
+  width: 180px;
 }
 
 @media screen and (max-width: 991px) {
@@ -2607,10 +2618,6 @@ a {
     display: none;
   }
 
-  .image-17 {
-    margin-top: -80px;
-  }
-
   .phonenumber {
     color: #fff;
     text-decoration: underline;
@@ -3055,7 +3062,6 @@ a {
 
   .image-17 {
     width: 90px;
-    margin-top: -20px;
     margin-bottom: 16px;
   }
 
@@ -3074,6 +3080,10 @@ a {
 
   .dropdown {
     z-index: 300000;
+  }
+
+  .div-block-75 {
+    margin-top: 0;
   }
 }
 
