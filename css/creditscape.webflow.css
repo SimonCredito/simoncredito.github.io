@@ -221,6 +221,7 @@ a {
   justify-content: flex-start;
   align-items: center;
   display: flex;
+  position: relative;
 }
 
 .logo {
@@ -2159,7 +2160,12 @@ a {
 }
 
 .div-block-76 {
-  width: 180px;
+  width: 90px;
+  height: 108px;
+}
+
+.div-block-77 {
+  position: relative;
 }
 
 @media screen and (max-width: 991px) {
