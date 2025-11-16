@@ -2168,6 +2168,12 @@ a {
   position: relative;
 }
 
+.div-block-78 {
+  margin-top: 64px;
+  position: absolute;
+  inset: 0% auto auto 0%;
+}
+
 @media screen and (max-width: 991px) {
   h1 {
     font-size: 40px;
@@ -2634,6 +2640,10 @@ a {
   .dropdowntoggle2, .dropdown {
     text-decoration: none;
   }
+
+  .div-block-78 {
+    margin-top: -103px;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -3090,6 +3100,10 @@ a {
 
   .div-block-75 {
     margin-top: 0;
+  }
+
+  .div-block-78 {
+    display: none;
   }
 }
 
