@@ -2036,6 +2036,10 @@ a {
   inset: 0%;
 }
 
+.div-block-73.hidden {
+  display: none;
+}
+
 .paragraph-9 {
   background-color: var(--hero);
   color: var(--white);
