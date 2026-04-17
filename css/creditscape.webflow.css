@@ -804,12 +804,12 @@ a {
 
 .themen-icon {
   background-color: var(--hero);
+  width: 96px;
+  height: 96px;
   color: var(--white);
   border-radius: 50%;
   justify-content: center;
   align-items: center;
-  width: 96px;
-  height: 96px;
   padding-bottom: 4px;
   font-family: My Fa Solid, sans-serif;
   font-size: 40px;
@@ -898,12 +898,12 @@ a {
 
 .icon-gold-square {
   background-color: var(--hero);
+  width: 128px;
+  height: 128px;
   color: var(--white);
   border-radius: 2px;
   justify-content: center;
   align-items: center;
-  width: 128px;
-  height: 128px;
   padding-bottom: 4px;
   font-family: My Fa Solid, sans-serif;
   font-size: 70px;
@@ -978,18 +978,18 @@ a {
 
 .testimonial-card {
   background-color: var(--hero);
+  height: 380px;
   color: var(--white);
   border-radius: 2px;
   flex-direction: column;
   align-items: flex-start;
-  height: 410px;
   padding: 24px;
   display: flex;
   position: relative;
 }
 
 .testimonial-info {
-  opacity: .67;
+  opacity: 1;
   color: var(--black);
   align-self: stretch;
   align-items: center;
@@ -1013,6 +1013,7 @@ a {
 }
 
 .testimonial-author {
+  opacity: .7;
   margin-top: 20px;
   margin-bottom: 2px;
 }
@@ -1077,6 +1078,7 @@ a {
   margin-right: 16px;
   font-family: My Fa Solid, sans-serif;
   font-size: 58px;
+  display: none;
 }
 
 .image-5 {
@@ -1207,12 +1209,12 @@ a {
 
 .social-icon-box {
   background-color: var(--hero);
+  width: 50px;
+  height: 50px;
   color: var(--white);
   border-radius: 50%;
   justify-content: center;
   align-items: center;
-  width: 50px;
-  height: 50px;
   margin-top: 16px;
   margin-right: 8px;
   padding-bottom: 4px;
@@ -1777,13 +1779,13 @@ a {
 
 .blog-link-block {
   background-color: var(--gold-hover);
+  width: 100%;
+  height: 48px;
   color: var(--white);
   border: 1px #000;
   border-radius: 2px;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  height: 48px;
   margin-top: 32px;
   font-size: 20px;
   font-weight: 400;
@@ -2178,6 +2180,44 @@ a {
   inset: 0% auto auto 0%;
 }
 
+.div-block-79 {
+  background-color: var(--background);
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10vh;
+  margin-right: 48px;
+  font-size: 50px;
+  line-height: 1;
+  display: flex;
+  position: fixed;
+  inset: auto 0% 0% auto;
+  overflow: hidden;
+}
+
+.paragraph-10 {
+  color: var(--white);
+  margin-bottom: 0;
+  font-family: "Fa Brands 400", Arial, sans-serif;
+}
+
+.image-18 {
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 50%;
+  height: 60px;
+  margin-right: 16px;
+}
+
+.paragraph-11 {
+  text-transform: uppercase;
+  margin-top: 20px;
+  font-size: 26px;
+  line-height: 40px;
+}
+
 @media screen and (max-width: 991px) {
   h1 {
     font-size: 40px;
@@ -2194,6 +2234,19 @@ a {
 
   .section.immobilienangebote {
     background-position: 0 0, 50%;
+  }
+
+  .navbar {
+    height: 74px;
+    top: 0;
+  }
+
+  .logo-and-phone-info {
+    margin-right: 80px;
+  }
+
+  .logo {
+    margin-top: 8px;
   }
 
   .hero-container, .footer-container {
@@ -2247,7 +2300,7 @@ a {
   }
 
   .testimonial-card {
-    height: 480px;
+    height: 410px;
   }
 
   .testimonial-author {
@@ -2287,7 +2340,12 @@ a {
     padding-right: 16px;
   }
 
-  .menu-button, .menu-button.w--open, .nav-menu {
+  .menu-button {
+    background-color: var(--background);
+    margin-top: 2px;
+  }
+
+  .menu-button.w--open, .nav-menu {
     background-color: var(--background);
   }
 
@@ -2337,6 +2395,10 @@ a {
     padding-bottom: 16px;
     padding-left: 48px;
     padding-right: 48px;
+  }
+
+  .section-no-hero {
+    padding-top: 70px;
   }
 
   .div-block-55-copy {
@@ -2405,9 +2467,28 @@ a {
   .div-block-74 {
     flex-flow: column;
   }
+
+  .text-phone-info-2 {
+    margin-top: -24px;
+  }
+
+  .div-block-79 {
+    margin-bottom: 32px;
+    margin-right: 32px;
+  }
+
+  .paragraph-10 {
+    font-size: 50px;
+    line-height: 1;
+  }
 }
 
 @media screen and (max-width: 767px) {
+  h1 {
+    font-size: 32px;
+    line-height: 1.1;
+  }
+
   h2 {
     font-size: 22px;
   }
@@ -2418,17 +2499,23 @@ a {
     padding-bottom: 120px;
   }
 
-  .section.blog {
-    margin-top: 100px;
-    padding-top: 160px;
+  .section.home {
+    padding-top: 200px;
+    padding-bottom: 20px;
   }
 
-  .navbar {
-    z-index: 2147483647;
+  .section.blog {
+    height: 250px;
+    margin-top: 100px;
+    padding-top: 30px;
+  }
+
+  .section.blog.bl3 {
+    height: 300px;
   }
 
   .logo {
-    width: 220px;
+    width: 200px;
     margin-left: 16px;
   }
 
@@ -2436,6 +2523,10 @@ a {
     width: 450px;
     height: auto;
     padding-right: 0;
+  }
+
+  .text-block {
+    display: none;
   }
 
   .div-block-8 {
@@ -2463,6 +2554,11 @@ a {
     grid-template-columns: 1fr 1fr;
   }
 
+  .section-white {
+    padding-top: 32px;
+    padding-bottom: 64px;
+  }
+
   .topzins-box {
     margin-bottom: 32px;
   }
@@ -2481,7 +2577,7 @@ a {
   }
 
   .testimonial-card {
-    height: 410px;
+    height: 350px;
     margin-left: 10px;
     margin-right: 10px;
   }
@@ -2494,8 +2590,18 @@ a {
     right: -10px;
   }
 
+  .service-hero {
+    height: auto;
+    padding-bottom: 64px;
+    padding-left: 32px;
+  }
+
   .box-with-gold-border {
     padding: 32px 12px 12px;
+  }
+
+  .box-with-gold-border.mobilehidden {
+    display: none;
   }
 
   .footer-content {
@@ -2648,6 +2754,15 @@ a {
   .div-block-78 {
     margin-top: -103px;
   }
+
+  .div-block-79 {
+    margin-bottom: 16px;
+    margin-right: 16px;
+  }
+
+  .mobilehidden {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -2661,28 +2776,39 @@ a {
     line-height: 30px;
   }
 
-  .section, .section.stellenangebote {
+  .section {
+    padding-top: 160px;
+    padding-bottom: 32px;
+  }
+
+  .section.home {
+    padding-top: 100px;
+  }
+
+  .section.stellenangebote {
     padding-top: 160px;
     padding-bottom: 32px;
   }
 
   .section.blog {
     background-position: 0 0, 50%;
+    height: 160px;
     margin-top: 100px;
-    padding-top: 190px;
   }
 
   .navbar {
     z-index: 100;
-    margin-top: 20px;
+    height: 62px;
+    margin-top: 0;
   }
 
   .logo-and-phone-info {
-    height: 100px;
+    height: 60px;
+    margin-right: 50px;
   }
 
   .logo {
-    width: 140px;
+    width: 90px;
   }
 
   .hero-text {
@@ -2713,6 +2839,7 @@ a {
   }
 
   .div-block-17 {
+    max-width: 101%;
     padding-left: 8px;
     padding-right: 8px;
   }
@@ -2755,7 +2882,7 @@ a {
 
   .section-white {
     padding-top: 32px;
-    padding-bottom: 64px;
+    padding-bottom: 32px;
   }
 
   .topzins-box {
@@ -2782,7 +2909,7 @@ a {
   }
 
   .container-8 {
-    max-width: none;
+    max-width: 100%;
   }
 
   .centered-heading {
@@ -2795,7 +2922,7 @@ a {
   }
 
   .testimonial-card {
-    height: 480px;
+    height: 530px;
     margin-left: 10px;
     margin-right: 10px;
   }
@@ -2810,8 +2937,9 @@ a {
 
   .service-hero {
     height: auto;
-    padding-top: 260px;
-    padding-bottom: 64px;
+    padding-top: 64px;
+    padding-bottom: 32px;
+    padding-left: 0;
   }
 
   .text-block-5-copy {
@@ -2875,9 +3003,13 @@ a {
   .gallery-wrapper {
     grid-template-columns: 1fr;
     justify-items: start;
+    max-width: 100%;
+    overflow: visible;
   }
 
   .gallery-sticky {
+    width: 100%;
+    max-width: 100%;
     height: auto;
   }
 
@@ -2888,6 +3020,11 @@ a {
   .gallery-grid {
     grid-row-gap: 8px;
     justify-items: start;
+    max-width: 100%;
+  }
+
+  .gallery-image-wrapper {
+    max-width: 100%;
   }
 
   .div-block-43 {
@@ -2896,6 +3033,10 @@ a {
 
   .footer-left {
     order: 1;
+  }
+
+  .menu-button {
+    margin-top: 0;
   }
 
   .grid-3-copy {
@@ -2980,6 +3121,14 @@ a {
     grid-template-columns: .5fr .5fr .25fr .5fr;
   }
 
+  .image-13 {
+    width: 110px;
+    height: 110px;
+    margin-top: -120px;
+    position: absolute;
+    inset: 0% 0% auto auto;
+  }
+
   .uberuns-flexbox-h {
     position: relative;
   }
@@ -3042,8 +3191,8 @@ a {
   }
 
   .blog-h1 {
-    font-size: 30px;
-    line-height: 38px;
+    font-size: 26px;
+    line-height: 1.2;
   }
 
   .div-block-66 {
@@ -3095,6 +3244,7 @@ a {
   }
 
   .text-phone-info-2 {
+    margin-bottom: 8px;
     font-size: 16px;
   }
 
